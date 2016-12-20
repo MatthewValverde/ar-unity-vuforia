@@ -72,9 +72,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 400002}
   m_Father: {fileID: 0}
@@ -91,7 +90,6 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 400004}
   m_Father: {fileID: 400000}
@@ -102,10 +100,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: -0.7071068}
+  m_LocalRotation: {x: .707106829, y: 0, z: 0, w: -.707106829}
   m_LocalPosition: {x: 0, y: 0, z: 500}
   m_LocalScale: {x: 40, y: 40, z: 40}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 400002}
   m_RootOrder: 0
@@ -125,7 +122,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.05
+  near clip plane: .0500000007
   far clip plane: 2000
   field of view: 51
   orthographic: 0
@@ -141,7 +138,7 @@ Camera:
   m_HDR: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
+  m_StereoSeparation: .0219999999
   m_StereoMirrorMode: 0
 --- !u!1002 &2000001
 EditorExtensionImpl:
@@ -155,22 +152,19 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: e6eb16febd64e6b4a8a3f5918233c4da, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_ReflectionProbeUsage: 1
   m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 0
   m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -224,10 +218,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67cbfb9153674e84d894cc7d53ffe720, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mDataSetsToLoad:
-  - Stainglass
-  mDataSetsToActivate:
-  - Stainglass
+  mDataSetsToLoad: []
+  mDataSetsToActivate: []
   mExternalDatasetRoots: []
 --- !u!1002 &11400003
 EditorExtensionImpl:
@@ -257,7 +249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4114ca95ba12f394a8ad43abfc86745c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  VuforiaLicenseKey: Ac8W5P3/////AAAAGT190o18P0WTh8odtVS8Cv4gWwotlKXcBfswYnt6peGVKNI/6nuv3m0znhr7MYqntK93ytZAhUMYlhYBw43Onf3qmQ12dN2zuiw20NG5jOdgCfvQnrx4R09pSvletOKAPfsNIXobgwAQ3eTiHko2IzNXJo5EpModDw3ldHBLCTXI1QLXkY54bXLDvl901oohRM5p9fN1HkacKQ3IxldFQAXs+A6dscfMs0N9R16pu08QDn7K5MK7abCPf1cFzKF6zCNquz1anWC129HRGHk7oleVBlcYvR3PLWn4mhPRUNDxQOGgLLVo5RfPvyLDB1S18RuffSYMxTPBpFMUhJ8BIioUs3arBilB9DIshtxQ/PjC
+  VuforiaLicenseKey: 
   CameraDeviceModeSetting: -1
   MaxSimultaneousImageTargets: 1
   MaxSimultaneousObjectTargets: 1
@@ -365,7 +357,7 @@ MonoBehaviour:
   mPosePrediction: 0
   mModelCorrectionMode: 0
   mModelTransformEnabled: 0
-  mModelTransform: {x: 0, y: 0.1, z: -0.1}
+  mModelTransform: {x: 0, y: .100000001, z: -.100000001}
 --- !u!114 &11442664
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -377,7 +369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3eadf841a14a774a8e4c1b2f3146c9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mCameraOffset: 0.06
+  mCameraOffset: .0599999987
   mCentralAnchorPoint: {fileID: 400000}
   mParentAnchorPoint: {fileID: 0}
   mDistortionRenderingMode: 1

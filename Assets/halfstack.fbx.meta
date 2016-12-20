@@ -1,0 +1,359 @@
+fileFormatVersion: 2
+guid: cf3b0ed48a9abd24095bbf9e2ca9ac57
+timeCreated: 1475652590
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 5150 logo
+    100002: amp box
+    100004: amp chassis
+    100006: Area
+    100008: Area.001
+    100010: Area.002
+    100012: back grate
+    100014: back grate screws
+    100016: back grate_MeshPart0
+    100018: back grate_MeshPart1
+    100020: backdrop
+    100022: buttons
+    100024: cabinet angled
+    100026: cable holder
+    100028: Camera
+    100030: corner p
+    100032: corner pieces angled
+    100034: Empty
+    100036: engineering
+    100038: faceplate
+    100040: feet
+    100042: front grate
+    100044: front grate_MeshPart0
+    100046: front grate_MeshPart1
+    100048: //RootNode
+    100050: handle
+    100052: input jack
+    100054: input jack.001
+    100056: input jack.002
+    100058: input jack.003
+    100060: input jack.004
+    100062: input jack.005
+    100064: input jack.006
+    100066: input jack.007
+    100068: input jack.008
+    100070: knob eq high
+    100072: knob eq low
+    100074: knob eq mid
+    100076: knob lead post gain
+    100078: knob lead pre gain
+    100080: knob presence
+    100082: knob resonance
+    100084: knob rhy post gain
+    100086: knob rhy pre gain
+    100088: lights
+    100090: logo plate
+    100092: logo screws
+    100094: mesa logo
+    100096: peavey logo
+    100098: rear switch
+    100100: screws
+    100102: screws. mesa back panel
+    100104: screws. mesa back plate
+    100106: screws. mesa front
+    100108: screws. mesa side
+    100110: side screws
+    100112: switch
+    100114: switch.002
+    100116: top grate
+    100118: track lock
+    100120: transformers
+    100122: tubes
+    100124: usa tag
+    100126: wheel caster
+    400000: 5150 logo
+    400002: amp box
+    400004: amp chassis
+    400006: Area
+    400008: Area.001
+    400010: Area.002
+    400012: back grate
+    400014: back grate screws
+    400016: back grate_MeshPart0
+    400018: back grate_MeshPart1
+    400020: backdrop
+    400022: buttons
+    400024: cabinet angled
+    400026: cable holder
+    400028: Camera
+    400030: corner p
+    400032: corner pieces angled
+    400034: Empty
+    400036: engineering
+    400038: faceplate
+    400040: feet
+    400042: front grate
+    400044: front grate_MeshPart0
+    400046: front grate_MeshPart1
+    400048: //RootNode
+    400050: handle
+    400052: input jack
+    400054: input jack.001
+    400056: input jack.002
+    400058: input jack.003
+    400060: input jack.004
+    400062: input jack.005
+    400064: input jack.006
+    400066: input jack.007
+    400068: input jack.008
+    400070: knob eq high
+    400072: knob eq low
+    400074: knob eq mid
+    400076: knob lead post gain
+    400078: knob lead pre gain
+    400080: knob presence
+    400082: knob resonance
+    400084: knob rhy post gain
+    400086: knob rhy pre gain
+    400088: lights
+    400090: logo plate
+    400092: logo screws
+    400094: mesa logo
+    400096: peavey logo
+    400098: rear switch
+    400100: screws
+    400102: screws. mesa back panel
+    400104: screws. mesa back plate
+    400106: screws. mesa front
+    400108: screws. mesa side
+    400110: side screws
+    400112: switch
+    400114: switch.002
+    400116: top grate
+    400118: track lock
+    400120: transformers
+    400122: tubes
+    400124: usa tag
+    400126: wheel caster
+    2300000: 5150 logo
+    2300002: amp box
+    2300004: amp chassis
+    2300006: back grate screws
+    2300008: back grate_MeshPart0
+    2300010: back grate_MeshPart1
+    2300012: backdrop
+    2300014: buttons
+    2300016: cabinet angled
+    2300018: cable holder
+    2300020: corner p
+    2300022: corner pieces angled
+    2300024: engineering
+    2300026: faceplate
+    2300028: feet
+    2300030: front grate_MeshPart0
+    2300032: front grate_MeshPart1
+    2300034: handle
+    2300036: input jack
+    2300038: input jack.001
+    2300040: input jack.002
+    2300042: input jack.003
+    2300044: input jack.004
+    2300046: input jack.005
+    2300048: input jack.006
+    2300050: input jack.007
+    2300052: input jack.008
+    2300054: knob eq high
+    2300056: knob eq low
+    2300058: knob eq mid
+    2300060: knob lead post gain
+    2300062: knob lead pre gain
+    2300064: knob presence
+    2300066: knob resonance
+    2300068: knob rhy post gain
+    2300070: knob rhy pre gain
+    2300072: lights
+    2300074: logo plate
+    2300076: logo screws
+    2300078: mesa logo
+    2300080: peavey logo
+    2300082: rear switch
+    2300084: screws
+    2300086: screws. mesa back panel
+    2300088: screws. mesa back plate
+    2300090: screws. mesa front
+    2300092: screws. mesa side
+    2300094: side screws
+    2300096: switch
+    2300098: switch.002
+    2300100: top grate
+    2300102: track lock
+    2300104: transformers
+    2300106: tubes
+    2300108: usa tag
+    2300110: wheel caster
+    3300000: 5150 logo
+    3300002: amp box
+    3300004: amp chassis
+    3300006: back grate screws
+    3300008: back grate_MeshPart0
+    3300010: back grate_MeshPart1
+    3300012: backdrop
+    3300014: buttons
+    3300016: cabinet angled
+    3300018: cable holder
+    3300020: corner p
+    3300022: corner pieces angled
+    3300024: engineering
+    3300026: faceplate
+    3300028: feet
+    3300030: front grate_MeshPart0
+    3300032: front grate_MeshPart1
+    3300034: handle
+    3300036: input jack
+    3300038: input jack.001
+    3300040: input jack.002
+    3300042: input jack.003
+    3300044: input jack.004
+    3300046: input jack.005
+    3300048: input jack.006
+    3300050: input jack.007
+    3300052: input jack.008
+    3300054: knob eq high
+    3300056: knob eq low
+    3300058: knob eq mid
+    3300060: knob lead post gain
+    3300062: knob lead pre gain
+    3300064: knob presence
+    3300066: knob resonance
+    3300068: knob rhy post gain
+    3300070: knob rhy pre gain
+    3300072: lights
+    3300074: logo plate
+    3300076: logo screws
+    3300078: mesa logo
+    3300080: peavey logo
+    3300082: rear switch
+    3300084: screws
+    3300086: screws. mesa back panel
+    3300088: screws. mesa back plate
+    3300090: screws. mesa front
+    3300092: screws. mesa side
+    3300094: side screws
+    3300096: switch
+    3300098: switch.002
+    3300100: top grate
+    3300102: track lock
+    3300104: transformers
+    3300106: tubes
+    3300108: usa tag
+    3300110: wheel caster
+    4300000: 5150 logo
+    4300002: amp box
+    4300004: amp chassis
+    4300006: back grate_MeshPart0
+    4300008: back grate_MeshPart1
+    4300010: back grate screws
+    4300012: buttons
+    4300014: cable holder
+    4300016: corner p
+    4300018: faceplate
+    4300020: feet
+    4300022: front grate_MeshPart0
+    4300024: front grate_MeshPart1
+    4300026: handle
+    4300028: input jack.001
+    4300030: knob eq high
+    4300032: knob eq low
+    4300034: knob eq mid
+    4300036: knob lead post gain
+    4300038: knob lead pre gain
+    4300040: knob presence
+    4300042: knob resonance
+    4300044: knob rhy post gain
+    4300046: knob rhy pre gain
+    4300048: lights
+    4300050: logo screws
+    4300052: peavey logo
+    4300054: rear switch
+    4300056: screws
+    4300058: side screws
+    4300060: switch.002
+    4300062: top grate
+    4300064: transformers
+    4300066: tubes
+    4300068: usa tag
+    4300070: cabinet angled
+    4300072: corner pieces angled
+    4300074: input jack.008
+    4300076: logo plate
+    4300078: engineering
+    4300080: mesa logo
+    4300082: screws. mesa front
+    4300084: screws. mesa back panel
+    4300086: screws. mesa back plate
+    4300088: screws. mesa side
+    4300090: track lock
+    4300092: wheel caster
+    4300094: backdrop
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

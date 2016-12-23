@@ -9,7 +9,7 @@ using System.Collections;
 		{
 		}
 		
-		public void StartTowerAnimation ()
+		public void StartAnimation ()
 		{
 			if (towerAnim != null) {
 				towerAnim.Play ("towerAnim");

@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ButterflySteps  : MonoBehaviour
 {
-	public GameObject butterfly;
+	public Animator butterflyAnimation;
 
 	void Start ()
 	{
@@ -11,8 +11,9 @@ public class ButterflySteps  : MonoBehaviour
 
 	public void StartAnimation ()
 	{
-		if (butterfly != null) {
-			butterfly.SetActive (true);
+		if (butterflyAnimation != null) {
+
+			butterflyAnimation.Play("butterflyFlying");
 		}
 	}
 }

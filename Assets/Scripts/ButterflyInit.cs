@@ -9,7 +9,7 @@ ITrackableEventHandler
 	{
 		private TrackableBehaviour mTrackableBehaviour;
 
-		public Animator floorAnim;
+		public Animator butterflyAnimation;
 
 		public GameObject butterfly;
 
@@ -30,8 +30,9 @@ ITrackableEventHandler
 			    newStatus == TrackableBehaviour.Status.EXTENDED_TRACKED) {
 			
 				print ("READY  !!!!!");
-				if (floorAnim != null) {
-					floorAnim.Play ("towerFloorAnim");
+
+				if (butterfly != null) {
+					butterfly.SetActive (true);
 				}
 
 
@@ -39,10 +40,6 @@ ITrackableEventHandler
 
 			} else {
 
-				print ("NO");
-				if (floorAnim != null) {
-					floorAnim.Play ("towerFloorDefaultAnim");
-				}
 
 
 				if (butterfly != null) {
@@ -55,9 +52,9 @@ ITrackableEventHandler
 
 		public void StartAnimation ()
 		{
-			if (butterfly != null) {
+			if (butterflyAnimation != null) {
 
-				butterfly.SetActive (true);
+				butterflyAnimation.Play("butterflyFlying");
 			}
 		}
 

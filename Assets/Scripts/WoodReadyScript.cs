@@ -30,11 +30,8 @@ ITrackableEventHandler
 			    newStatus == TrackableBehaviour.Status.EXTENDED_TRACKED) {
 			
 				print ("READY  !!!!!");
-				if (floorAnim != null) {
-					floorAnim.Play ("towerFloorAnim");
-				}
 
-
+				Invoke ("StartAnimation", 1);
 
 			} else {
 
@@ -44,16 +41,26 @@ ITrackableEventHandler
 				}
 
 				if (towerAnim != null) {
-					towerAnim.Play ("towerDefaultAnim");
+					towerAnim.Play ("tableDefault");
 				}
-
 			}
 		}
 
-		public void StartTowerAnimation ()
+		public void StartFloorAnimation ()
 		{
+			CancelInvoke ("StartFloorAnimation");
+
+			if (floorAnim != null) {
+				floorAnim.Play ("towerFloorAnim");
+			}
+		}
+
+		public void StartAnimation ()
+		{
+			print("START ANIMATION .. ");
+
 			if (towerAnim != null) {
-				towerAnim.Play ("towerAnim");
+				towerAnim.Play ("Table");
 			}
 		}
 	}

@@ -34,7 +34,7 @@ ITrackableEventHandler
 					floorAnim.Play ("towerFloorAnim");
 				}
 
-
+				Invoke ("StartTowerAnimation", 0.5f);
 
 			} else {
 
@@ -52,6 +52,8 @@ ITrackableEventHandler
 
 		public void StartTowerAnimation ()
 		{
+			CancelInvoke ("StartTowerAnimation");
+
 			if (towerAnim != null) {
 				towerAnim.Play ("towerAnim");
 			}

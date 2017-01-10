@@ -33,9 +33,10 @@ ITrackableEventHandler
 			
 				print ("READY  !!!!!");
 				if (floorAnim != null) {
-					floorAnim.Play ("towerFloorAnim");
+					//floorAnim.Play ("towerFloorAnim");
 				}
-					
+
+				Invoke("StartAnimation", 1);
 
 			} else {
 
@@ -55,6 +56,35 @@ ITrackableEventHandler
 					//skeletonAnimator.Play ("towerDefaultAnim");
 				}
 
+			}
+		}
+
+		public void StartAnimation ()
+		{
+			CancelInvoke("StartAnimation");
+			if (skeleton != null) {
+				skeleton.SetActive(true);
+				skeleton.GetComponent<Rigidbody>().isKinematic = false;
+				Invoke("InitStandUp", 1);
+			}
+		}
+
+		private void InitStandUp ()
+		{
+			CancelInvoke("InitStandUp");
+
+			if (skeleton != null) {
+				skeleton.GetComponent<Animator>().Play ("StandUp02");
+			}
+		}
+
+		public void StartFloorAnimation ()
+		{
+			print("START FLOOR ROOLLL");
+			if (floorAnim != null) {
+
+				print("START FLOOR ROOLLL33333333333333333333333");
+				floorAnim.Play ("floorRolling");
 			}
 		}
 

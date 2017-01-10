@@ -2,21 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SkeletonAnimationController : MonoBehaviour {
+public class SkeletonAnimationController : MonoBehaviour
+{
 
 	public GameObject skeleton;
 	public Animator floorAnim;
 	// Use this for initialization
-	void Start () {
+	void Start ()
+	{
 		
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+	{
 		
 	}
 
-	public void StartAnimation ()
+	/*public void StartAnimation ()
 	{
 		if (skeleton != null) {
 			skeleton.SetActive(true);
@@ -32,14 +35,14 @@ public class SkeletonAnimationController : MonoBehaviour {
 		if (skeleton != null) {
 			skeleton.GetComponent<Animator>().Play ("StandUp02");
 		}
-	}
+	}*/
 
 	public void StartFloorAnimation ()
 	{
-		print("START FLOOR ROOLLL");
+		print ("START FLOOR ROOLLL");
 		if (floorAnim != null) {
 
-			print("START FLOOR ROOLLL33333333333333333333333");
+			print ("START FLOOR ROOLLL33333333333333333333333");
 			floorAnim.Play ("floorRolling");
 		}
 	}

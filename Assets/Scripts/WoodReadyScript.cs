@@ -29,9 +29,7 @@ ITrackableEventHandler
 			    newStatus == TrackableBehaviour.Status.TRACKED ||
 			    newStatus == TrackableBehaviour.Status.EXTENDED_TRACKED) {
 			
-				print ("READY  !!!!!");
-
-				Invoke ("StartAnimation", 1);
+				Invoke ("StartAnimation", 3f);
 
 			} else {
 

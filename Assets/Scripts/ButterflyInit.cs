@@ -28,38 +28,21 @@ ITrackableEventHandler
 			if (newStatus == TrackableBehaviour.Status.DETECTED ||
 			    newStatus == TrackableBehaviour.Status.TRACKED ||
 			    newStatus == TrackableBehaviour.Status.EXTENDED_TRACKED) {
-			
 				print ("READY  !!!!!");
-
-				if (butterfly != null) {
-					butterfly.SetActive (true);
-				}
-
-
-					
-
+				Invoke ("StartAnimation", 3f);
 			} else {
-
-
-
 				if (butterfly != null) {
 
 					butterfly.SetActive (false);
 				}
-
 			}
 		}
 
 		public void StartAnimation ()
 		{
-			if (butterflyAnimation != null) {
-
-				butterflyAnimation.Play("butterflyFlying");
+			if (butterfly != null) {
+				butterfly.SetActive (true);
 			}
 		}
-
-
 	}
-
-
 }

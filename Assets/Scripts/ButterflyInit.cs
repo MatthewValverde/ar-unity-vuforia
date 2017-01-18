@@ -29,7 +29,7 @@ ITrackableEventHandler
 			    newStatus == TrackableBehaviour.Status.TRACKED ||
 			    newStatus == TrackableBehaviour.Status.EXTENDED_TRACKED) {
 				print ("READY  !!!!!");
-				Invoke ("StartAnimation", 3f);
+				Invoke ("StartAnimation", 1f);
 			} else {
 				if (butterfly != null) {
 

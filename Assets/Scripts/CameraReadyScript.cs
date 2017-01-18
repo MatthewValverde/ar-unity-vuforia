@@ -34,7 +34,7 @@ ITrackableEventHandler
 					floorAnim.Play ("towerFloorAnim");
 				}
 
-				Invoke ("StartTowerAnimation", 3f);
+				Invoke ("StartTowerAnimation", 1f);
 
 			} else {
 

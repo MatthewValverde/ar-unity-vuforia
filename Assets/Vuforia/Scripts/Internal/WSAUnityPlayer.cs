@@ -140,9 +140,9 @@ namespace Vuforia
         }
 
         /// <summary>
-        /// Initializes Vuforia; called from Start
+        /// Initializes Vuforia
         /// </summary>
-        public VuforiaUnity.InitError Start(string licenseKey)
+        public VuforiaUnity.InitError InitializeVuforia(string licenseKey)
         {
             int errorCode = initVuforiaWSA(licenseKey);
             if (errorCode >= 0)
@@ -158,14 +158,28 @@ namespace Vuforia
                     VuforiaUnity.SetHoloLensApiAbstraction(new HoloLensApiImplementation());
 
                     Debug.Log("Detected Holographic Device");
-                    if (!VuforiaUnity.SetHolographicAppCoordinateSystem(WorldManager.GetNativeISpatialCoordinateSystemPtr()))
-                    {
-                        return VuforiaUnity.InitError.INIT_ERROR;
-                    }
                 }
 #endif
             }
             return (VuforiaUnity.InitError)errorCode;
+        }
+
+        /// <summary>
+        /// Called on start each time a new scene is loaded
+        /// </summary>
+        public void StartScene()
+        {
+#if HOLOLENS_API_AVAILABLE
+                // This determines if we are starting on a holographic device
+                if (UnityEngine.VR.VRSettings.loadedDeviceName.Equals(UNITY_HOLOLENS_IDENTIFIER)
+                    && UnityEngine.VR.VRDevice.isPresent)
+                {
+                    if (!VuforiaUnity.SetHolographicAppCoordinateSystem(WorldManager.GetNativeISpatialCoordinateSystemPtr()))
+                    {
+                        Debug.LogError("Failed to set holographic coordinate system pointer!");
+                    }
+                }
+#endif
         }
 
         /// <summary>
